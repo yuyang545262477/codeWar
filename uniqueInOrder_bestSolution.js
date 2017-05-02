@@ -6,6 +6,7 @@ function uniqueInOrder(iterable) {
     var last;
     for (var i = 0; i < iterable.length; i++) {
         var obj = iterable[i];
+        //noinspection JSUnusedAssignment
         if (obj !== last) {
             result.push(last = obj);
         }
