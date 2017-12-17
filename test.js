@@ -1,15 +1,15 @@
 // noinspection JSUnresolvedVariable
 var assert = require('chai').assert;
 var app = require('./order/order');
-var testInstent = require('./testCondition');
+var condition = require('./order/condition');
 
 describe('App', function () {
     /**@des test order*/
 
-    for (var i = 0; i < testInstent.length; i++) {
+    for (var i = 0; i < condition.length; i++) {
         (function (i) {
             'use strict';
-            var obj = testInstent[i];
+            var obj = condition[i];
             it(obj.in + ' /should return/ ' + obj.out, function () {
                 assert.equal(app(obj.in), obj.out);
             });
