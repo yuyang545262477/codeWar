@@ -1,0 +1,15 @@
+{
+  "name": "codeWar",
+  "version": "1.0.0",
+  "main": "test.js",
+  "repository": "https://github.com/yuyang545262477/codeWar.git",
+  "author": "舒米勒 <yuyang545262477@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}

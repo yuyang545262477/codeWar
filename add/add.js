@@ -1,4 +1,4 @@
-function add(n) {
+module.exports = function add(n) {
     var fn = function (x) {
         return add(n + x);
     };
@@ -8,6 +8,4 @@ function add(n) {
     };
 
     return fn;
-}
-
-console.log(add(2)(3) == 5);
+};
