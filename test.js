@@ -1,11 +1,10 @@
 // noinspection JSUnresolvedVariable
 var assert = require('chai').assert;
-var app = require('./order/order');
-var condition = require('./order/condition');
+var app = require('./simple/simple');
+var condition = require('./simple/condition');
 
 describe('App', function () {
     /**@des test order*/
-
     for (var i = 0; i < condition.length; i++) {
         (function (i) {
             'use strict';
