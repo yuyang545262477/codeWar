@@ -1,7 +1,7 @@
 // noinspection JSUnresolvedVariable
 var assert = require('chai').assert;
-var app = require('./isValidIP/index');
-var condition = require('./isValidIP/condition');
+var app = require('./4kyu/RomanEncode/index');
+var condition = require('./4kyu/RomanEncode/condition');
 
 describe('App', function () {
     /**@des test order*/
