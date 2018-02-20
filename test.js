@@ -1,7 +1,7 @@
 // noinspection JSUnresolvedVariable
 var assert = require('chai').assert;
-var app = require('./4kyu/removeZeros/index');
-var condition = require('./4kyu/removeZeros/condition');
+var app = require('./4kyu/snail/index');
+var condition = require('./4kyu/snail/condition');
 
 describe('App', function () {
     /**@des test order*/
